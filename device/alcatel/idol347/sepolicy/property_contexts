@@ -1,0 +1,10 @@
+qualcomm.bt.                     u:object_r:bluetooth_prop:s0
+
+# tfa9897
+audio.spkbox.                    u:object_r:audio_prop:s0
+audio.smartpa.                   u:object_r:audio_prop:s0
+
+3daudio_enabled                            u:object_r:audio_prop:s0
+audio.ftm.rcv_reverse                      u:object_r:audio_prop:s0
+audio.                                     u:object_r:audio_prop:s0
+

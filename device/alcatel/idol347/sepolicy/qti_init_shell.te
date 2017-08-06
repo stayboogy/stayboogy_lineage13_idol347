@@ -1,0 +1,8 @@
+# Init is spawning a shell in qti_init_shell that uses a pipe, because of popen usage on libinit.
+allow qti_init_shell init:fifo_file { write getattr };
+allow qti_init_shell bootselect_device:blk_file { read open };
+
+# fm firmware download is run from a script
+allow qti_init_shell apk_data_file:dir { write add_name };
+#fm
+allow qti_init_shell apk_data_file:file { create write open read };

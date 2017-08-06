@@ -1,0 +1,4 @@
+# CmHardwareService access to TapToWake and KeyDisabler
+allow system_server sysfs_gesture_wakeup_mode:file rw_file_perms;
+allow system_server sysfs_gesture_wakeup_mode:dir { search };
+allow system_server sensors_persist_file:dir { search };

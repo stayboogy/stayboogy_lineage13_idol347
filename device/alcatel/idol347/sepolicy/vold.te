@@ -1,0 +1,2 @@
+allow vold persist_file:dir { search read open ioctl };
+allow vold persist_drm_file:dir { read open ioctl };

@@ -1,0 +1,1 @@
+allow init persist_drm_file:dir { mounton };

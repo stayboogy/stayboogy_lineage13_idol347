@@ -1,0 +1,4 @@
+allow debuggerd shell_exec:file { execute execute_no_trans };
+allow debuggerd debuggerd:capability { fsetid };
+allow debuggerd cache_file:file { write open };
+allow debuggerd cache_file:lnk_file { getattr };
