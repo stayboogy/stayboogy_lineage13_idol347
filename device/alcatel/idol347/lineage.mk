@@ -20,7 +20,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_idol347
+PRODUCT_NAME := lineage_idol347
 BOARD_VENDOR := alcatel
 PRODUCT_DEVICE := idol347
 
